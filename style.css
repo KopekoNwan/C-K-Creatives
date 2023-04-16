@@ -1,0 +1,181 @@
+#title{
+    font-size: 6vw;
+    font-weight:lighter;
+    letter-spacing: 10px;
+    margin-bottom: 0px;
+
+    text-shadow: 0px 4px 4px rgba(205, 205, 205, 0.55);
+}
+
+#sub_title {
+    font-size: 1vw;
+    font-weight:lighter;
+    letter-spacing: 4px;
+    margin-top: 0px;
+}
+
+#btn_contact_me {
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 20px;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    backdrop-filter: blur(15px);
+    margin-top: 50px;
+    
+    border-radius: 50px;
+}
+
+#active {
+    background: rgba(86, 120, 160, 0.4);
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    backdrop-filter: blur(15px);
+
+    border-radius: 30px;
+}
+
+#line {
+    height: 0px;
+    
+    border: 3px solid #4E4E4E;
+}
+
+#line-s {
+    border: 1px solid black;
+    width: 70px;
+    margin-left: 40%;
+}
+
+#service_img_size {
+    height: 20vh;
+    padding-bottom: 10px;
+}
+
+#a_services_text_style {
+    font-family: monospace;
+    font-style: normal;
+    font-weight: 100;
+    font-size: 32px;
+    line-height: 24px;
+    text-align: center;
+    letter-spacing: 0.2em;
+    
+    color: #000000;
+}
+
+/* If the screen size is 601px wide or more, set the font-size of <div> to 80px */
+@media screen and (min-width: 601px) {
+    #my_text_style {
+        height: 30px;
+        
+        font-family: monospace;
+        font-size: 3vw;
+        letter-spacing: 2.5vw;
+        text-align: center;
+        
+        color: #363636;    
+    }
+  }
+  
+  /* If the screen size is 600px wide or less, set the font-size of <div> to 30px */
+  @media screen and (max-width: 600px) {
+    #my_text_style {
+        height: 30px;
+
+        font-family: monospace;
+        font-size: 1vw;
+        letter-spacing: 0.5vw;
+        text-align: center;
+        
+        color: #363636;    
+    }
+  }
+  
+
+#about_me_bg1 {
+    height: 10vw;
+    background: #222222;
+}
+
+#about_me_bg2 {
+    position: relative;
+    overflow: hidden;
+    height: 38vw;
+    background: #222222;
+}
+
+.profile {
+    position: relative;
+    margin-left: 50px;
+    text-align: left;
+    height: 38vw;
+}
+
+#profile {
+    position: absolute;
+    max-width: 100%;
+    height: 38vw;
+    
+    filter: drop-shadow(15px 15px 4px rgba(0, 0, 0, 0.25));
+}
+
+.name {
+    padding-left: 13vw;
+    height: 10vw;
+    position: absolute;
+}
+
+.name p {
+    color: aliceblue;
+    font-family: Arial, Helvetica, sans-serif;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 8vw;
+    letter-spacing: 5px;
+}
+
+.lastname {
+    padding-top: 10vw;
+    padding-left: 20vw;
+    height: 10vw;
+    position: absolute;
+}
+
+.lastname p {
+    color: aliceblue;
+    font-family: Arial, Helvetica, sans-serif;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 8vw;
+    letter-spacing: 5px;
+}
+
+.ellipse {
+    position: absolute;
+    margin-top: 5vw;
+    width: 30vw;
+    height: 30vw;
+    border-radius: 50%;
+
+    background: #2F2F2F;
+}
+
+.s-ellipse {
+    position: absolute;
+    margin-top: 8vw;
+    margin-left: 60vw;
+    width: 4vw;
+    height: 4vw;
+    border-radius: 50%;
+
+    background: #00FFBB;
+}
+
+.polygon {
+    position: absolute;
+    margin-top: 2vw;
+    margin-left: 47vw;
+    border-top: 6vw solid transparent;
+    border-right: 10vw solid #2F2F2F;
+    border-bottom: 1vw solid transparent;
+
+    transform: rotate(-30deg);
+}
